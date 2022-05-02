@@ -14,10 +14,11 @@ public class GitTest {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println(összead(1,2));
+        GitTest gt = new GitTest();
+        System.out.println(gt.összead(1,2));
     }
     
-    public static int összead(int első, int második) {
+    public int összead(int első, int második) {
         return első + második;
     }
 }
